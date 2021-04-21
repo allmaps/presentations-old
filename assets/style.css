@@ -1,0 +1,60 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.center-items {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reveal .emoji {
+  padding: 0 .5em;
+}
+
+.center-items {
+  height: 800px;
+}
+
+#logo-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  padding: 20px;
+}
+
+img#logo {
+  width: 100px;
+}
+
+.wiggle {
+  display: inline-block;
+  animation-iteration-count: infinite;
+  animation-name: wiggle;
+  animation-duration: .5s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(-10deg);
+  }
+
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+pre {
+  overflow-y: scroll;
+  height: 600px;
+  font-size: 50% !important;
+}

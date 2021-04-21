@@ -1,0 +1,55 @@
+body {
+  font-size: 28px;
+}
+
+body, .reveal a, .reveal a:visited,
+#caption a, #caption a:visited {
+  color: black;
+}
+
+.reveal .caption {
+  display: none;
+}
+
+.reveal ul, .reveal ol {
+  margin-left: 3em;
+}
+
+.reveal .block-text .block {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px 15px ;
+  line-height: 1.6em;
+}
+
+.reveal table td {
+  border-bottom: none;
+}
+
+.reveal .text-shadow {
+  text-shadow: 0px 0px 8px white;
+}
+
+.reveal pre {
+  /*box-shadow: none;*/
+  padding: 0;
+}
+
+.reveal pre code {
+  max-height: none;
+  padding: 10px;
+}
+
+.warning {
+  color: red;
+}
+
+.more-space > div {
+  padding-bottom: 1em;
+}
+
+.reveal a:hover img {
+  background: none;
+  border-color: none;
+  box-shadow: none;
+}
+
