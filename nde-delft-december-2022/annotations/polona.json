@@ -1,0 +1,1006 @@
+{
+    "type": "AnnotationPage",
+    "@context": [
+      "http://www.w3.org/ns/anno.jsonld"
+    ],
+    "items": [
+      {
+        "id": "357a7ea89a54fdca",
+        "type": "Annotation",
+        "@context": [
+          "http://www.w3.org/ns/anno.jsonld",
+          "http://geojson.org/geojson-ld/geojson-context.jsonld",
+          "http://iiif.io/api/presentation/3/context.json"
+        ],
+        "motivation": "georeferencing",
+        "target": {
+          "type": "Image",
+          "source": "https://zas.bn.org.pl/iiif/45937490/47663029.tif/full/full/0/default.jpg",
+          "service": [
+            {
+              "@id": "https://zas.bn.org.pl/iiif/45937490/47663029.tif",
+              "type": "ImageService2"
+            }
+          ],
+          "selector": {
+            "type": "SvgSelector",
+            "value": "<svg width=\"15345\" height=\"8681\"><polygon points=\"3152,2142 3006,8227 14991,8434 15159,555 6065,378 6024,2185\" /></svg>"
+          }
+        },
+        "body": {
+          "type": "FeatureCollection",
+          "purpose": "gcp-georeferencing",
+          "transformation": {
+            "type": "polynomial",
+            "order": 0
+          },
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  14707,
+                  4848
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.4491419,
+                  52.5113177
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  11625,
+                  6632
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.405203,
+                  52.4965306
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  14492,
+                  6581
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.449939,
+                  52.4966247
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  6552,
+                  5918
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.3290381,
+                  52.5005194
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  7944,
+                  4201
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.3500987,
+                  52.5145151
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "6002b7b22d90fce6",
+        "type": "Annotation",
+        "@context": [
+          "http://www.w3.org/ns/anno.jsonld",
+          "http://geojson.org/geojson-ld/geojson-context.jsonld",
+          "http://iiif.io/api/presentation/3/context.json"
+        ],
+        "motivation": "georeferencing",
+        "target": {
+          "type": "Image",
+          "source": "https://zas.bn.org.pl/iiif/55951898/56176602.tif/full/full/0/default.jpg",
+          "service": [
+            {
+              "@id": "https://zas.bn.org.pl/iiif/55951898/56176602.tif",
+              "type": "ImageService2"
+            }
+          ],
+          "selector": {
+            "type": "SvgSelector",
+            "value": "<svg width=\"15083\" height=\"14957\"><polygon points=\"11793,10692 11835,14468 14584,14477 14580,10711\" /></svg>"
+          }
+        },
+        "body": {
+          "type": "FeatureCollection",
+          "purpose": "gcp-georeferencing",
+          "transformation": {
+            "type": "polynomial",
+            "order": 0
+          },
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  12235,
+                  12044
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  20.5055715,
+                  54.7119842
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  13826,
+                  13687
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  20.5144348,
+                  54.7065466
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  12579,
+                  13557
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  20.5071111,
+                  54.707046
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "e16dd2a24cf0e185",
+        "type": "Annotation",
+        "@context": [
+          "http://www.w3.org/ns/anno.jsonld",
+          "http://geojson.org/geojson-ld/geojson-context.jsonld",
+          "http://iiif.io/api/presentation/3/context.json"
+        ],
+        "motivation": "georeferencing",
+        "target": {
+          "type": "Image",
+          "source": "https://zas.bn.org.pl/iiif/55951898/56176602.tif/full/full/0/default.jpg",
+          "service": [
+            {
+              "@id": "https://zas.bn.org.pl/iiif/55951898/56176602.tif",
+              "type": "ImageService2"
+            }
+          ],
+          "selector": {
+            "type": "SvgSelector",
+            "value": "<svg width=\"15083\" height=\"14957\"><polygon points=\"376,334 401,12980 2509,12970 2509,14483 11816,14479 11785,10686 14573,10699 14545,330\" /></svg>"
+          }
+        },
+        "body": {
+          "type": "FeatureCollection",
+          "purpose": "gcp-georeferencing",
+          "transformation": {
+            "type": "polynomial",
+            "order": 0
+          },
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  9146,
+                  8474
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  20.514534,
+                  54.705694
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  9970,
+                  5631
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  20.5229851,
+                  54.7221028
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  5526,
+                  9451
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  20.4775215,
+                  54.6999648
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "c9098dc763d71da1",
+        "type": "Annotation",
+        "@context": [
+          "http://www.w3.org/ns/anno.jsonld",
+          "http://geojson.org/geojson-ld/geojson-context.jsonld",
+          "http://iiif.io/api/presentation/3/context.json"
+        ],
+        "motivation": "georeferencing",
+        "target": {
+          "type": "Image",
+          "source": "https://zas.bn.org.pl/iiif/53153721/53660883.tif/full/full/0/default.jpg",
+          "service": [
+            {
+              "@id": "https://zas.bn.org.pl/iiif/53153721/53660883.tif",
+              "type": "ImageService2"
+            }
+          ],
+          "selector": {
+            "type": "SvgSelector",
+            "value": "<svg width=\"12128\" height=\"9511\"><polygon points=\"625,786 653,9065 8458,9052 8450,8173 11489,8187 11487,774 7586,791 7580,1097 4593,1107 4597,798\" /></svg>"
+          }
+        },
+        "body": {
+          "type": "FeatureCollection",
+          "purpose": "gcp-georeferencing",
+          "transformation": {
+            "type": "polynomial",
+            "order": 0
+          },
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  5490,
+                  3735
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.9147349,
+                  54.0782378
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  6609,
+                  5407
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.9161556,
+                  54.0719722
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  8984,
+                  5890
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.9276752,
+                  54.0678232
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  4708,
+                  5379
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.9061508,
+                  54.0747705
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "3344f21999ea805c",
+        "type": "Annotation",
+        "@context": [
+          "http://www.w3.org/ns/anno.jsonld",
+          "http://geojson.org/geojson-ld/geojson-context.jsonld",
+          "http://iiif.io/api/presentation/3/context.json"
+        ],
+        "motivation": "georeferencing",
+        "target": {
+          "type": "Image",
+          "source": "https://zas.bn.org.pl/iiif/135089538/135355256.tif/full/full/0/default.jpg",
+          "service": [
+            {
+              "@id": "https://zas.bn.org.pl/iiif/135089538/135355256.tif",
+              "type": "ImageService2"
+            }
+          ],
+          "selector": {
+            "type": "SvgSelector",
+            "value": "<svg width=\"10065\" height=\"13063\"><polygon points=\"714,676 673,12237 7257,12248 7262,11129 9336,11129 9408,757\" /></svg>"
+          }
+        },
+        "body": {
+          "type": "FeatureCollection",
+          "purpose": "gcp-georeferencing",
+          "transformation": {
+            "type": "polynomial",
+            "order": 0
+          },
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  4365,
+                  8824
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  9.1749911,
+                  45.4521772
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  7836,
+                  7669
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  9.2051952,
+                  45.4597751
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  4877,
+                  5049
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  9.179085,
+                  45.4758636
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "9431dd988f34a1cd",
+        "type": "Annotation",
+        "@context": [
+          "http://www.w3.org/ns/anno.jsonld",
+          "http://geojson.org/geojson-ld/geojson-context.jsonld",
+          "http://iiif.io/api/presentation/3/context.json"
+        ],
+        "motivation": "georeferencing",
+        "target": {
+          "type": "Image",
+          "source": "https://zas.bn.org.pl/iiif/3258336/3258207.tif/full/full/0/default.jpg",
+          "service": [
+            {
+              "@id": "https://zas.bn.org.pl/iiif/3258336/3258207.tif",
+              "type": "ImageService2"
+            }
+          ],
+          "selector": {
+            "type": "SvgSelector",
+            "value": "<svg width=\"9498\" height=\"7702\"><polygon points=\"1846,1161 1800,7336 9212,7368 9253,339 3189,329 3188,1163\" /></svg>"
+          }
+        },
+        "body": {
+          "type": "FeatureCollection",
+          "purpose": "gcp-georeferencing",
+          "transformation": {
+            "type": "polynomial",
+            "order": 0
+          },
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  7652,
+                  3657
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  21.0552361,
+                  52.2422012
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  6430,
+                  2526
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  21.0326295,
+                  52.253491
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  5149,
+                  3491
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  21.0100706,
+                  52.2426422
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  6433,
+                  5579
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  21.0340838,
+                  52.219382
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "e2bd22afe2f8704c",
+        "type": "Annotation",
+        "@context": [
+          "http://www.w3.org/ns/anno.jsonld",
+          "http://geojson.org/geojson-ld/geojson-context.jsonld",
+          "http://iiif.io/api/presentation/3/context.json"
+        ],
+        "motivation": "georeferencing",
+        "target": {
+          "type": "Image",
+          "source": "https://zas.bn.org.pl/iiif/31585168/32157883.tif/full/full/0/default.jpg",
+          "service": [
+            {
+              "@id": "https://zas.bn.org.pl/iiif/31585168/32157883.tif",
+              "type": "ImageService2"
+            }
+          ],
+          "selector": {
+            "type": "SvgSelector",
+            "value": "<svg width=\"12571\" height=\"10521\"><polygon points=\"529,446 9835,471 9831,1818 12013,1849 12013,5926 9442,5916 9415,9978 636,9947\" /></svg>"
+          }
+        },
+        "body": {
+          "type": "FeatureCollection",
+          "purpose": "gcp-georeferencing",
+          "transformation": {
+            "type": "polynomial",
+            "order": 0
+          },
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  9289,
+                  4811
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  16.9371915,
+                  52.4037969
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  8780,
+                  1550
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  16.9394897,
+                  52.4159754
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  5385,
+                  5760
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  16.9121164,
+                  52.4034205
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  5802,
+                  3918
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  16.9173945,
+                  52.4098905
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "c9098dc763d71da1",
+        "type": "Annotation",
+        "@context": [
+          "http://www.w3.org/ns/anno.jsonld",
+          "http://geojson.org/geojson-ld/geojson-context.jsonld",
+          "http://iiif.io/api/presentation/3/context.json"
+        ],
+        "motivation": "georeferencing",
+        "target": {
+          "type": "Image",
+          "source": "https://zas.bn.org.pl/iiif/53153721/53660883.tif/full/full/0/default.jpg",
+          "service": [
+            {
+              "@id": "https://zas.bn.org.pl/iiif/53153721/53660883.tif",
+              "type": "ImageService2"
+            }
+          ],
+          "selector": {
+            "type": "SvgSelector",
+            "value": "<svg width=\"12128\" height=\"9511\"><polygon points=\"625,786 653,9065 8458,9052 8450,8173 11489,8187 11487,774 7586,791 7580,1097 4593,1107 4597,798\" /></svg>"
+          }
+        },
+        "body": {
+          "type": "FeatureCollection",
+          "purpose": "gcp-georeferencing",
+          "transformation": {
+            "type": "polynomial",
+            "order": 0
+          },
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  5490,
+                  3735
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.9147349,
+                  54.0782378
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  6609,
+                  5407
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.9161556,
+                  54.0719722
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  8984,
+                  5890
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.9276752,
+                  54.0678232
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  4708,
+                  5379
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.9061508,
+                  54.0747705
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "f5c250b78d26a6f8",
+        "type": "Annotation",
+        "@context": [
+          "http://www.w3.org/ns/anno.jsonld",
+          "http://geojson.org/geojson-ld/geojson-context.jsonld",
+          "http://iiif.io/api/presentation/3/context.json"
+        ],
+        "motivation": "georeferencing",
+        "target": {
+          "type": "Image",
+          "source": "https://zas.bn.org.pl/iiif/32507386/33073417.tif/full/full/0/default.jpg",
+          "service": [
+            {
+              "@id": "https://zas.bn.org.pl/iiif/32507386/33073417.tif",
+              "type": "ImageService2"
+            }
+          ],
+          "selector": {
+            "type": "SvgSelector",
+            "value": "<svg width=\"11244\" height=\"9365\"><polygon points=\"494,1661 2376,1655 2351,407 10699,345 10777,8974 551,9017\" /></svg>"
+          }
+        },
+        "body": {
+          "type": "FeatureCollection",
+          "purpose": "gcp-georeferencing",
+          "transformation": {
+            "type": "polynomial",
+            "order": 0
+          },
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  9857,
+                  4305
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  14.2592357,
+                  53.9187648
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  6450,
+                  5635
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  14.2492918,
+                  53.9105053
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  7381,
+                  2859
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  14.2460779,
+                  53.9181905
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "83ead11405073450",
+        "type": "Annotation",
+        "@context": [
+          "http://www.w3.org/ns/anno.jsonld",
+          "http://geojson.org/geojson-ld/geojson-context.jsonld",
+          "http://iiif.io/api/presentation/3/context.json"
+        ],
+        "motivation": "georeferencing",
+        "target": {
+          "type": "Image",
+          "source": "https://zas.bn.org.pl/iiif/30311254/31206373.tif/full/full/0/default.jpg",
+          "service": [
+            {
+              "@id": "https://zas.bn.org.pl/iiif/30311254/31206373.tif",
+              "type": "ImageService2"
+            }
+          ],
+          "selector": {
+            "type": "SvgSelector",
+            "value": "<svg width=\"12811\" height=\"9464\"><polygon points=\"362,428 352,7703 2473,7715 2468,9064 9077,9088 9082,7614 10917,5121 12353,5120 12390,427\" /></svg>"
+          }
+        },
+        "body": {
+          "type": "FeatureCollection",
+          "purpose": "gcp-georeferencing",
+          "transformation": {
+            "type": "polynomial",
+            "order": 0
+          },
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  5089,
+                  3978
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  18.6486401,
+                  54.3495264
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  1099,
+                  4676
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  18.6542658,
+                  54.337466
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  7926,
+                  4538
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  18.6501696,
+                  54.3584807
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "d6e26a80608dccd2",
+        "type": "Annotation",
+        "@context": [
+          "http://www.w3.org/ns/anno.jsonld",
+          "http://geojson.org/geojson-ld/geojson-context.jsonld",
+          "http://iiif.io/api/presentation/3/context.json"
+        ],
+        "motivation": "georeferencing",
+        "target": {
+          "type": "Image",
+          "source": "https://zas.bn.org.pl/iiif/49843998/51345133.tif/full/full/0/default.jpg",
+          "service": [
+            {
+              "@id": "https://zas.bn.org.pl/iiif/49843998/51345133.tif",
+              "type": "ImageService2"
+            }
+          ],
+          "selector": {
+            "type": "SvgSelector",
+            "value": "<svg width=\"15101\" height=\"11304\"><polygon points=\"487,1836 2578,1849 2583,435 14600,487 14593,10760 436,10687\" /></svg>"
+          }
+        },
+        "body": {
+          "type": "FeatureCollection",
+          "purpose": "gcp-georeferencing",
+          "transformation": {
+            "type": "polynomial",
+            "order": 0
+          },
+          "features": [
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  4858,
+                  4137
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  12.988526,
+                  55.6055117
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  8363,
+                  7810
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.0115997,
+                  55.5919826
+                ]
+              }
+            },
+            {
+              "type": "Feature",
+              "properties": {
+                "pixelCoords": [
+                  8801,
+                  4849
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  13.014325,
+                  55.6029831
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
