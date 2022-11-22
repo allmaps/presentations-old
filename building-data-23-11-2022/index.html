@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Georeferencing Building Plans</title>
+    <meta name="author" content="Jules Schoonman" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/reveal/css/reset.css" />
+    <link rel="stylesheet" href="../assets/reveal/css/reveal.css" />
+    <link rel="stylesheet" href="../assets/reveal/css/prism.css" />
+    <link rel="stylesheet" href="../assets/reveal/css/theme.css" id="theme" />
+    <link rel="stylesheet" href="../assets/reveal/css/style.css" />
+    <link rel="stylesheet" href="../assets/style.css" />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+
+      .reveal .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .quote {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .quote > * {
+        width: 50%;
+      }
+
+      .quote blockquote {
+        font-size: 30px;
+        text-align: left;
+        box-shadow: none;
+      }
+
+      .credit {
+        font-size: 20px;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          class="title"
+          data-background="../assets/images/masks.svg"
+          data-background-color="#101656"
+          data-background-size="120%"
+        >
+          <img
+            width="200px"
+            alt="Allmaps"
+            src="https://raw.githubusercontent.com/allmaps/style/master/images/allmaps-logo-inverted.svg"
+          />
+          <h1>Georeferencing<br>Building Plans</h1>
+          <p>Revisiting Nolli Maps in the Digital Age</p>
+          <p>Jules Schoonman (TU Delft Library)</p>
+        </section>
+
+        <!-- Gio. Battista Nolli, Nuova Topografia Di Roma (1748) -->
+
+        <section>
+            <iframe class="r-stretch"
+              data-src="https://dev.viewer.allmaps.org/?url=https://annotations.allmaps.org/manifests/b20d4820f496b7b1"
+              data-preload
+            ></iframe>
+            <p class="credit">
+                Giambattista Nolli, Pianta Grande di Roma (1748)<br>
+                <a href="https://www.davidrumsey.com/luna/servlet/s/21xb00">David Rumsey Map Collection</a>
+            </p>
+        </section>
+
+        <section>
+            <img
+            width="900px"
+            alt="Le piante maggiori di Roma dei sec. XVI e XVII: riprodotte in fototipia"
+            src="https://digi.ub.uni-heidelberg.de/iiif/2/piante_roma_bd1%3Az_ab.jpg/pct:2,7,90,83/2000,/90/default.jpg"
+          />
+            <p class="credit">
+            Leonardo Bufalini, Roma (1551)<br>
+            <a href="https://doi.org/10.11588/diglit.25719">Heidelberg University Library</a>
+            </p>
+        </section>
+
+        <section>
+            <iframe class="r-stretch"
+              data-src="https://dev.viewer.allmaps.org/?url=https://annotations.allmaps.org/images/9f888622a47479cc"
+              data-preload
+            ></iframe>
+            <p class="credit">
+            Giovanni Battista Piranesi, Pianta dell'antico Foro Romano (Le Antichità Romane, 1800-1809)<br>
+            <a href="https://lib.ugent.be/catalog/rug01:001493078/items/NA">Ghent University Library</a>
+            </p>
+        </section>
+
+        <section>
+            <iframe class="r-stretch"
+              data-src="https://dev.viewer.allmaps.org/?url=https://annotations.allmaps.org/images/74e022436ac90ec1"
+              data-preload
+            ></iframe>
+            <p class="credit">
+            Rudolfo Lanciani, Forma Urbis Romae (1901)<br>
+            <a href="https://www.davidrumsey.com/luna/servlet/s/4k9vm5">David Rumsey Map Collection</a>
+            </p>
+        </section>
+
+        <section>
+            <iframe class="r-stretch"
+              data-src="https://dev.viewer.allmaps.org/?url=https://annotations.allmaps.org/images/40518cb781fba5a2"
+              data-preload
+            ></iframe>
+            <p class="credit">
+            Henry Tucker, Great Britain. Ordnance Survey (1852)<br>
+            <a href="https://www.davidrumsey.com/luna/servlet/s/67d8s8">David Rumsey Map Collection</a>
+            </p>
+        </section>
+
+        <section>
+            <img
+            width="900px"
+            alt="Collage City"
+            src="images/collage_city_01.jpg"
+          />
+            <p class="credit">
+            Colin Rowe and Fred Koetter, Collage City (Cambridge: MIT Press, 1978)<br>
+            </p>
+        </section>
+
+        <section>
+            <img
+            width="900px"
+            alt="Collage City"
+            src="images/collage_city_02.jpg"
+          />
+            <p class="credit">
+            Colin Rowe and Fred Koetter, Collage City (Cambridge: MIT Press, 1978)<br>
+            </p>
+        </section>
+
+        <section>
+            <img
+            width="900px"
+            alt="Collage City"
+            src="images/collage_city_03.jpg"
+          />
+            <p class="credit">
+            Colin Rowe and Fred Koetter, Collage City (Cambridge: MIT Press, 1978)<br>
+            </p>
+        </section>
+
+        <section>
+            <img
+            width="900px"
+            alt="Collage City"
+            src="images/collage_city_04.jpg"
+          />
+            <p class="credit">
+            Colin Rowe and Fred Koetter, Collage City (Cambridge: MIT Press, 1978)<br>
+            </p>
+        </section>
+
+        <section>
+            <iframe class="r-stretch"
+              data-src="https://dev.viewer.allmaps.org/?url=https://raw.githubusercontent.com/allmaps/presentations/main/building-data-23-11-2022/annotations/delft_campus_nolli.json"
+              data-preload
+            ></iframe>
+            <p class="credit">
+            Georeferenced building plans of TU Delft Campus<br>
+            <a href="https://heritage.tudelft.nl/en">TU Delft Library, Special Collections</a>
+            </p>
+        </section>
+
+      </div>
+    </div>
+    <div id="logo-container">
+      <img
+        id="logo"
+        src="../assets/allmaps-logo.svg"
+        href="#"
+        onclick="javascript:Reveal.next()"
+      />
+    </div>
+    <script src="../assets/reveal/js/reveal.js"></script>
+    <script src="../assets/reveal/js/script.js"></script>
+  </body>
+</html>
