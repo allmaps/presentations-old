@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Allmaps Viewer</title>
+    <meta name="author" content="Bert Spaan" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/reveal/css/reset.css" />
+    <link rel="stylesheet" href="../assets/reveal/css/reveal.css" />
+    <link rel="stylesheet" href="../assets/reveal/css/prism.css" />
+    <link rel="stylesheet" href="../assets/reveal/css/theme.css" id="theme" />
+    <link rel="stylesheet" href="../assets/reveal/css/style.css" />
+    <link rel="stylesheet" href="../assets/style.css" />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+
+      .reveal .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .quote {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .quote > * {
+        width: 50%;
+      }
+
+      .quote blockquote {
+        font-size: 30px;
+        text-align: left;
+        box-shadow: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          class="title"
+          data-background="../assets/images/masks.svg"
+          data-background-color="#101656"
+          data-background-size="120%"
+        >
+          <img
+            width="200px"
+            alt="Allmaps"
+            src="https://raw.githubusercontent.com/allmaps/style/master/images/allmaps-logo-inverted.svg"
+          />
+          <h1>Allmaps</h1>
+          <p>Ontwikkeling nieuwe versie <br />Allmaps Viewer</p>
+        </section>
+
+        <section>
+          <img
+            class="r-stretch"
+            src="https://allmaps.org/cards/allmaps-viewer.jpg"
+          />
+          <p>Huidige versie: één kaart tegelijk</p>
+        </section>
+
+        <section>
+          <img
+            class="r-stretch"
+            src="../assets/images/west-roxbury.jpg"
+          />
+          <p>Van de kaarten weten we wáár in de wereld ze thuishoren</p>
+        </section>
+
+        <section>
+          <img
+            class="r-stretch"
+            src="../assets/images/qgis-masks.jpg"
+          />
+          <p>Hoe presenteren we al deze kaarten op een overzichtelijke manier?</p>
+        </section>
+
+        <section>
+          <img
+            class="r-stretch"
+            src="../assets/images/clustering/overlap.png"
+          />
+          <p>Probleem 1: kaarten tonen hetzelfde gebied</p>
+        </section>
+
+        <section>
+          <img
+            class="r-stretch"
+            src="../assets/images/clustering/distance.png"
+          />
+          <p>Probleem 2: grote onderlinge geografische afstand</p>
+        </section>
+
+        <section>
+          <img class="r-stretch" src="../assets/images/clustering/scale.png" />
+          <p>Probleem 3: verschil in schaal</p>
+        </section>
+
+        <section>
+          <img
+            class="r-stretch"
+            src="../assets/images/clustering/stitched.png"
+          />
+          <p>Probleem 4: verschillende afbeeldingen vormen één kaart</p>
+        </section>
+
+        <section>
+          <img
+            class="r-stretch"
+            src="../assets/images/clustering/combined.png"
+          />
+          <p>Collectie waar alles samenkomt</p>
+        </section>
+
+        <!-- Stadsarchief Amsterdam - Publieke Werken 1909 -->
+
+        <section>
+          <iframe class="r-stretch"
+            data-src="https://dev.viewer.allmaps.org/?url=https://raw.githubusercontent.com/allmaps/webgl2-preview/main/static/publieke-werken-1909.json"
+            data-preload
+          ></iframe>
+        </section>
+
+        <!--
+          From: https://github.com/tu-delft-library/rivierkaarten-iiif/tree/main/Output/georef
+            https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/georef/georef_EERSTE_DRUK_1.json
+            https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/georef/georef_EERSTE_DRUK_2.json
+            https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/georef/georef_EERSTE_DRUK_3.json
+            https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/georef/georef_EERSTE_DRUK_4.json
+            https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/georef/georef_EERSTE_DRUK_5.json
+            https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/georef/georef_EERSTE_DRUK_6.json
+        -->
+
+        <section>
+          <iframe class="r-stretch"
+            data-src="https://dev.viewer.allmaps.org/?url=https://raw.githubusercontent.com/allmaps/presentations/main/nde-delft-december-2022/annotations/rivierkaarten.json"
+            data-preload
+          ></iframe>
+        </section>
+
+        <!--
+          Pharus-Plan, polona.pl:
+          https://polona.pl/iiif/item/NDU5Mzc0OTA/manifest.json
+          https://polona.pl/iiif/item/NTU5NTE4OTg/manifest.json
+          https://polona.pl/iiif/item/NTMxNTM3MjE/manifest.json
+          https://polona.pl/iiif/item/MTM1MDg5NTM4/manifest.json
+          https://polona.pl/iiif/item/MzI1ODMzNg/manifest.json
+          https://polona.pl/iiif/item/MzE1ODUxNjg/manifest.json
+          https://polona.pl/iiif/item/NTMxNTM3MjE/manifest.json
+          https://polona.pl/iiif/item/MzI1MDczODY/manifest.json
+          https://polona.pl/iiif/item/MzAzMTEyNTQ/manifest.json
+          https://polona.pl/iiif/item/NDk4NDM5OTg/manifest.json
+          -->
+
+        <section>
+          <iframe class="r-stretch"
+            data-src="https://dev.viewer.allmaps.org/?url=https://raw.githubusercontent.com/allmaps/presentations/main/nde-delft-december-2022/annotations/polona.json"
+            data-preload
+          ></iframe>
+        </section>
+
+        <!-- Selectie VU-kaarten -->
+
+        <section>
+          <iframe class="r-stretch"
+            data-src="https://dev.viewer.allmaps.org/?url=https://raw.githubusercontent.com/allmaps/presentations/main/nde-delft-december-2022/annotations/vu.json"
+            data-preload
+          ></iframe>
+        </section>
+
+        <!-- schets ontwerp nieuwe viewer -->
+        <!-- maps by decade -->
+        <!-- kaarten clusteren, overlap detecteren -->
+
+        <section style="text-align: left;">
+          <p>Kaarten groeperen die bij elkaar horen:</p>
+          <ul>
+            <li>Geografisch gebied</li>
+            <li>Schaal</li>
+            <li>Overlap</li>
+          </ul>
+          <p>Gebruikers snel laten wisselen tussen deze groepen,</p>
+          <p>en snel kaarten die over elkaar heen liggen met elkaar vergelijken</p>
+        </section>
+
+        <!-- vergelijken: NLS -->
+      </div>
+    </div>
+    <div id="logo-container">
+      <img
+        id="logo"
+        src="../assets/allmaps-logo.svg"
+        href="#"
+        onclick="javascript:Reveal.next()"
+      />
+    </div>
+    <script src="../assets/reveal/js/reveal.js"></script>
+    <script src="../assets/reveal/js/script.js"></script>
+  </body>
+</html>
