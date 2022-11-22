@@ -31,26 +31,7 @@ body {
 }
 
 img#logo {
-  width: 100px;
-}
-
-.wiggle {
-  display: inline-block;
-  animation-iteration-count: infinite;
-  animation-name: wiggle;
-  animation-duration: .5s;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes wiggle {
-  from {
-    transform: rotate(-10deg);
-  }
-
-  to {
-    transform: rotate(10deg);
-  }
+  width: 50px;
 }
 
 pre {
