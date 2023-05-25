@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Allmaps in Practice</title>
+    <meta name="author" content="Bert Spaan" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="../assets/reveal/css/reset.css" />
+    <link rel="stylesheet" href="../assets/reveal/css/reveal.css" />
+    <link rel="stylesheet" href="../assets/reveal/css/prism.css" />
+    <link rel="stylesheet" href="../assets/reveal/css/theme.css" id="theme" />
+    <link rel="stylesheet" href="../assets/reveal/css/style.css" />
+    <link rel="stylesheet" href="../assets/style.css" />
+    <link rel="stylesheet" href="https://fonts.allmaps.org/fonts.css" />
+    <style>
+      body {
+        font-family: "Geograph", sans-serif;
+      }
+
+      .reveal .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .quote {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .quote > * {
+        width: 50%;
+      }
+
+      .quote blockquote {
+        font-size: 30px;
+        text-align: left;
+        box-shadow: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section></section>
+        <!--
+
+Outline voor presentatie
+
+
+Idee: alles kan ook lokaal, plaatjes, filmpjes, maar geen iframes
+Filmpjes opnemen met Kap
+
+Abstract: https://docs.google.com/document/d/1fYXC0qp6O3Mq3murwbCuc1c3ukiyw0S70W0EZ8RR40E/edit?usp=sharing
+
+Allmaps in Practice:
+
+Introduction (7m):
+
+- What is Allmaps?
+- open source, partnerships, funding, etc.
+- Publication of the Georef spec
+- short walk-through, from manifest to georef to viewer
+- Almaps Latest
+- Launch of the new Allmaps Viewer
+
+Use cases (8m):
+
+- 1 Institutions
+    - 1.1 Leiden University Libraries - DATA IMPORT & CONVERSION
+        - Many institutions already have georeferencing data which is unused. How to make it useful?
+        - Example of existing data (Hoekpunten KIT?)
+        - Example of converted georef annotation
+        - Even inherited/incomplete data can be used!
+    - 1.2 LMEC @ Boston Public Library – GEOREFERENCING WITH ALLMAPS
+        - Used Map Warper and are switching to Allmaps
+        Converting existing data
+        - Crowd sourcing
+        - Making sharable [guides](https://cartinal.leventhalmap.org/guides/georeferencing-with-allmaps.html#checklist-table-of-contents)
+        - ask for collections (latest.allmaps.org only shows individual maps)
+        - Converting to other formats
+        - Testing components
+- 2. Researchers
+    - 2.1 SODUCO - RESEARCH WORKFLOWS WITH IIIF & ALLMAPS
+        - Building research projects on top of institutional APIs
+        - Close comparison between different editions of maps: Gallica vergelijken met Rumsey
+    - 2.2 OpenHistoricalMap COMPATIBILITY WITH EXISTING GIS APPLICATIONS
+        - XYZ tile server for compatibility with GIS software
+- 3. Educators
+    - 3.1 The Berlage (River Maps) STORYTELLING WITH MAPS
+        - Collection historical material from different sources
+        - Studying designs in context
+        - Working accross scales
+        - Using Placemark
+        - Digital/physical relationship
+
+Conclusion (5m)
+
+- Plans
+    - Allmaps Viewer
+        - thin plate spline
+    - Allmaps Editor
+        - Improving the georeferencer tool
+        - Error visualisation
+        - Editing JSON
+        - Versioning
+        - Custom reference map
+    - Allmaps Curator
+        - Managing Crowd Sourcing projects
+    - Allmaps Explorer
+        - Finding maps accross collections
+- Organisation
+    -
+- How to collaborate -->
+      </div>
+    </div>
+    <div id="logo-container">
+      <img
+        id="logo"
+        src="../assets/allmaps-logo.svg"
+        href="#"
+        onclick="javascript:Reveal.next()"
+      />
+    </div>
+    <script src="../assets/reveal/js/reveal.js"></script>
+    <script src="../assets/reveal/js/script.js"></script>
+  </body>
+</html>
